@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Comments</title>
+  </head>
+  <body>
+    <header>
+      <h1>Comments</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="saved-items.html">Saved</a></li>
+        <li><a href="comment.html">Comments</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Leave a Comment</h2>
+        <form id="comment-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="comment">Comment:</label>
+          <textarea id="comment" name="comment" rows="4" required></textarea>
+          <input type="submit" value="Submit Comment" />
+        </form>
+      </section>
+
+      <section>
+        <h2>Comments</h2>
+        <ul id="comment-list">
+          <!-- Comments will be displayed here dynamically using JavaScript -->
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Your Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="comment.js"></script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+/* Apply background color to the header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+/* Style navigation menu with background and text color */
+nav {
+  text-align: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white; /* Text color for navigation links */
+  text-decoration: none;
+}
+
+/* Style the main content background with a light grey-blue */
+main {
+  background-color: #f0f5f9; /* Light Grey-Blue */
+  padding: 20px;
+}
+
+/* Style the table with background and border color */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ccc; /* Grey border */
+  background-color: white;
+}
+
+th,
+td {
+  border: 1px solid #ccc; /* Grey border */
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2; /* Light Grey */
+}
+
+/* Style the footer with a dark blue background */
+footer {
+  background-color: #222; /* Dark Blue */
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.like-button.liked {
+  background-color: green;
+  color: white;
+}
+/* Add this CSS to your stylesheet or in a <style> element in your HTML file */
+.comment {
+  color: blue;
+}
