@@ -16,10 +16,14 @@ document.addEventListener("DOMContentLoaded", function () {
         const index = savedItems.indexOf(itemName);
         savedItems.splice(index, 1);
         button.textContent = "Save";
+        // Add an alert to notify the user
+        alert("Item Unsaved!!!.");
       } else {
         // If not saved, add it
         savedItems.push(itemName);
         button.textContent = "Unsave";
+        // Add an alert to notify the user
+        alert("Item saved!!!.");
       }
 
       // Save the updated items back to localStorage
